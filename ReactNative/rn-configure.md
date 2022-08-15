@@ -6,6 +6,8 @@
 adb.exe connect 127.0.0.1:62001
 ```
 
+出现如下语句则表示成功
+
 不行的话找到你AndroidSDK的目录然后打开platform-tools文件夹在此目录下执行语句
 
 然后
