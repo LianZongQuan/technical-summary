@@ -1,6 +1,6 @@
 ## 一、 React  Hooks 
 
-  在 react 中组件的实现方式有两种：函数式组件、class 组件。class 组件中可以使用 state 、props 来更新状态和传递属性，使用 `componentDidMount()` 函数来初始化组件。如何在函数式组件中使用这些特性，需要使用React  Hooks（钩子）。
+  在 react 中组件的实现方式有两种：函数式组件、class 组件。class 组件中可以使用 state 、props 来更新状态和传递属性，使用 `componentDidMount()` 函数来初始化组件。如何在函数式组件中使用这些特性，需要使用 React  Hooks（钩子）。
 
 ###   1、Hooks（钩子）概述
 
@@ -143,7 +143,7 @@
 
   若要更改跟踪对象的某一个属性，使用`setxxx( , )`则会删除其它属性
 
-  应该使用`previousState`来更改
+  应该使用 `previousState` 来更改
 
   ```js
   setCar(previousState => {
