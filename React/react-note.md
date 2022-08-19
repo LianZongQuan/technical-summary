@@ -19,7 +19,8 @@
   import ReactDOM from "react-dom";
   function App() {
     /*
-    	Hooks 需再此调用，是为了可以确保在每次呈现组件时以相同的顺序调用hook。这使得React能够在		多个useState和useEffect调用之间正确保存hook的状态。
+    	Hooks 需再此调用，是为了可以确保在每次呈现组件时以相同的顺序调用hook。这使得React能够在	
+      多个useState和useEffect调用之间正确保存hook的状态。
     */
     const [color, setColor] = useState("red");
   
